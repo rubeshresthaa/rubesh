@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Enter your Email Here</legend>
+      <form>
+        <p>
+          <label for="mail">Email:</label>
+          <input
+            type="email"
+            id="mail"
+            name="mail"
+            placeholder="Enter Your Email"
+            required
+          />
+        </p>
+      </form>
+    </fieldset>
+    <fieldset>
+      <form action="">
+        <legend>Enter Your UserName Here</legend>
+        <p>
+          <label for="username">UserName</label>
+          <input type="text" name="username" id="username" maxlength="10" />
+        </p>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Enter your password here</legend>
+      <form>
+        <p>
+          <label for="id">Password:</label>
+          <input
+            type="password"
+            id="id"
+            name="password"
+            placeholder="Enter Your Password"
+            required
+          />
+        </p>
+        <p>
+        <h3>Select you Gender</h3>
+       
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male" checked />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female" />
+        </p>
+        <p>
+          <h3>Select Your Habits</h3>
+          <label for="sing">Sing</label>
+          <input type="checkbox" name="habit" id="sing" value="sing">
+          <label for="reading">Reading</label>
+          <input type="checkbox" name="habit" id="reading" value="reading">
+          <label for="gaming">Gaming</label>
+          <input type="checkbox" name="habit" id="gaming" value="gaming">
+          <label for="travel">Traveling</label>
+          <input type="checkbox" name="habit" id="travel" value="travel" checked>
+        </p>
+        <p>
+          <h3>Select Your Country</h3>
+          Country:<select name="country" id="country">
+            <option value="">Select Your Country</option>
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="USA">USA</option>
+            <option value="Australia">Australia</option>
+            <option value="Japan">Japan</option>
+          </select>
+        </p>
+        <h3>Select Your Fav Player</h3>
+        Player: <select name="player">
+          <optgroup label="Basketball">
+            <option value="kyrie">Kyrie</option>
+            <option value="jordan">Michael Jordan</option>
+            <option value="kobe">Kobe Bryant</option>
+
+
+          </optgroup>
+          <optgroup label="FootBall">
+            <option value="Messi">Messi</option>
+            <option value="Ronaldo">Ronaldo</option>
+            <option value="neymar">Neymar</option>
+          </optgroup>
+
+        </select>
+
+        <p>
+          <label for="msge">Give Your FeedBack:</label>
+          <br>
+          <textarea name="msge" id="msge" placeholder="Give Your FeedBack" cols="40" rows="10"></textarea> //cols- widht rows:height 
+        </p>
+
+        <p>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date">
+        </p>
+      </form>
+
+    </fieldset>
+    <fieldset>
+      <legend>Enter Your Address Here</legend>
+      <form>
+        <p>
+          <label for="address">Address:</label>
+          <input
+            type="text"
+            id="address"
+            required
+            placeholder="Enter Your Address"
+          />
+        </p>
+      </form>
+    </fieldset>
+    <br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <p>If you have any question please contact <a href="mailto:rubesh.shrestha619@gmail.com?cc=rubesh.shrestha213@gmail.com">Rubesh Shrestha</a></p>
+
+   
+  </body>
+</html>
